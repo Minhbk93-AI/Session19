@@ -1,0 +1,10 @@
+// Trong Javascrip có 2 bộ nhớ chính:
+// + Stack ( Dùng để lưu trữ kiểu dữ liệu Primitive - kiểu nguyên thủy)
+// + Heap ( Dùng để lưu trữ kiểu dũ liệu Prefence- Type - Kiểu phức tạp)
+
+// Khi lưu trữ kiểu dữ liệu phức tạp thì ban đầu sẽ lưu tạm vào Stack có vùng nhớ là "Pointer" nó sẽ trỏ( map)
+// sang HEAP
+let y = { name: " Hello world" };
+let z = y;
+z.name = "Biến z";
+console.log(y);

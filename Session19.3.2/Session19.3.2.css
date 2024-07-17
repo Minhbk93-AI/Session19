@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(171, 175, 179);
+}
+#box{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    
+    
+}
+#box a{
+    position: absolute;
+    top: 5px;
+    right: 1px;
+
+}
+

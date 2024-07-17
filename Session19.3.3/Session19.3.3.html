@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Session19.3.3.css" />
+  </head>
+  <body>
+    <div id="box">
+      <h1>Change background color</h1>
+      <p>Mouse over the squares!</p>
+      <div
+        id="square1"
+        class="square"
+        onmouseover="changeBackground('lightyellow')"
+        onmouseout="resetBackground()"
+      ></div>
+      <div
+        id="square2"
+        class="square"
+        onmouseover="changeBackground('lightgreen')"
+        onmouseout="resetBackground()"
+      ></div>
+      <div
+        id="square3"
+        class="square"
+        onmouseover="changeBackground('lightgrey')"
+        onmouseout="resetBackground()"
+      ></div>
+    </div>
+
+    <!-- // -->
+    <script src="./Session19.3.3.js"></script>
+  </body>
+</html>
